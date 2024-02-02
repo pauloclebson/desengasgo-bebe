@@ -8,7 +8,7 @@ body {
   background-color: #f1f1f1;
 }
 
-#content {
+.content {
   background: linear-gradient(to bottom right, #36E7FF, #96F2FF); /* Gradiente azul claro */
   background-repeat: no-repeat;
   background-size: contain;
@@ -20,29 +20,29 @@ body {
   box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.671);
 }
 
-#baby-img {
+.baby-img {
   max-width: 50%;
   border-radius: 50%;
 }
 
-#icons {
+.icons {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
 }
 
-#icons img {
+.icons img {
   width: 50px; /* Ajuste o tamanho dos ícones conforme necessário */
   margin: 0 10px;
 }
 
-#buttons {
+.buttons {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-#buttons button {
+.buttons button {
   padding: 10px 20px;
   background-color: #fff;
   border-radius: 8px;
@@ -52,13 +52,22 @@ body {
   cursor: pointer;
 }
 
-#buttons button:hover{
+.buttons button:hover{
   background-color: #08007c;
   color: #12cee7;
 }
 
-.title, .subtitle {
+.title{
   font-family: cursive;
   color: #f1f1f1;
+  font-size: 70px;
+  text-shadow: 0px 0px 5px rgba(12, 12, 12, 0.671);
+}
+
+.subtitle{
+  font-family: cursive;
+  color: #f1f1f1;
+  margin-top: 10px;
+  font-size: 30px;
   text-shadow: 0px 0px 5px rgba(12, 12, 12, 0.671);
 }
