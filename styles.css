@@ -1,45 +1,55 @@
 body {
-  display: flex;
   margin: 0;
   padding: 0;
-  height: 100vh; /* 100% da altura da viewport */
-  justify-content: center; /* Centraliza o conteúdo na horizontal */
-  align-items: center; /* Centraliza o conteúdo na vertical */
-  background-color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #36E7FF, #96F2FF);
+  background-repeat: no-repeat;
+
 }
 
 .content {
-  background: linear-gradient(to bottom right, #36E7FF, #96F2FF); /* Gradiente azul claro */
-  background-repeat: no-repeat;
-  background-size: contain;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
-  max-width: 70%;
+  max-width: 100%;
   border-radius: 15px;
   box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.671);
 }
 
+.image{
+  display: flex;
+  justify-content: center;
+}
+
 .baby-img {
-  max-width: 50%;
-  border-radius: 50%;
+  width: 50%;
 }
 
 .icons {
-  margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .icons img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px; /* Ajuste o tamanho dos ícones conforme necessário */
   margin: 0 10px;
 }
 
 .buttons {
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+
 }
 
 .buttons button {
@@ -50,6 +60,8 @@ body {
   font-size: 16px;
   margin: 0 10px;
   cursor: pointer;
+  width: 300px;
+  height: 50px;
 }
 
 .buttons button:hover{
@@ -57,17 +69,17 @@ body {
   color: #12cee7;
 }
 
-.title{
+.title, h1{
   font-family: cursive;
   color: #f1f1f1;
   font-size: 70px;
-  text-shadow: 0px 0px 5px rgba(12, 12, 12, 0.671);
+  text-shadow: 0px 0px 10px rgba(12, 12, 12, 0.671);
 }
 
 .subtitle{
   font-family: cursive;
-  color: #f1f1f1;
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 30px;
-  text-shadow: 0px 0px 5px rgba(12, 12, 12, 0.671);
+  color: #f1f1f1;
+  text-shadow: 0px 0px 10px rgba(12, 12, 12, 0.671);
 }
